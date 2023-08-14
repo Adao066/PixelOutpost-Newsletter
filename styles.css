@@ -1,0 +1,86 @@
+.head {
+    color: #121212;
+    text-align: center;
+    font-family: pixel
+}
+
+@font-face {
+    font-family: pixel;
+    src:  url(outlinepixel7.ttf)   
+}
+
+#heading {
+    font: pixel;
+    font-family: pixel;
+    font-size: 100px;
+    margin: 50px 10px auto;
+    letter-spacing: -2px;
+    word-spacing: -40px;  
+}
+
+#heading-two {
+    font: pixel;
+    width: 300px;
+    margin: 10px auto;
+    font-family: pixel;
+    font-size: 40px;
+    border: 10px solid #219ebc;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;      
+}
+
+.body {
+    background: url(PixelBackground.gif);
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#img-pixel {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #219ebc;
+    border-radius: 50%;
+}
+
+#font-body {
+    width: 450px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 30px
+}
+
+#input-email {
+    text-align: center;
+    font-family: pixel;
+    font-size: 20px;
+    font-style: bold;
+    border: 3px solid #121212;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#join {
+    height: 50px;
+    width: 290px;
+    font-size: 20px;
+    font-family: pixel;
+    color: #ffc300;
+    background: #121212;
+}
+
+.TOS {
+    width: 290px;
+    margin: 10px auto;
+    background: black;
+    color: white;
+}
+
+#underline {
+    color: white;
+}
